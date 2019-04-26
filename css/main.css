@@ -1,0 +1,55 @@
+html {
+    font-family: verdana;
+    text-align: center;
+    background-color: #add8e6;
+  }
+  #whiteBox {
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    height: auto;
+    padding: 30px;
+    max-width: 800px;
+  }
+  
+  .text-input, .dropdown, textarea, button {
+    padding: 8px;
+  }
+  
+  .checkbox, .radio {
+    font-size: 15px;
+    padding: 4px;
+  }
+  
+  .newRow {
+    display: block;
+    text-align: left;
+    margin: 20px;
+  }
+  
+  .prompts {
+    display: inline-block;
+    float: left;
+    text-align: right;
+    width: 40%;
+    margin: 10px;
+  }
+  
+  .answers {
+    display: inline-block;
+    width: 40%;
+    margin: 8px;
+  }
+  
+  @media (max-width: 800px) {
+    .answers, .text-input, .dropdown, textarea, .checkbox, .radio  {
+      display: inline-block;
+      width: 80%;
+      text-align: left;
+    }
+    .prompts {
+      text-align: left;
+      width: 100%;
+    }
+  }
+  
